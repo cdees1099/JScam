@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: lightblue;
+    position: absolute;
+}
+
+.menuIcon{
+    height: 100%;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.bar{
+    height: 6px;
+    width: 80%;
+    background-color: white;
+}
+
+.menu{
+    position: fixed;
+    top: 60px;
+    right: -150px;
+    width: 150px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color:#9090ff;
+    min-height: 150px;
+    transition: 0.125s;
+}
+
+
+img{
+    height: 200px;
+    width: 150px;
+    display: flex;
+}
